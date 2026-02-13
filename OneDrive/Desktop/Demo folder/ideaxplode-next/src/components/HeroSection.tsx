@@ -17,7 +17,7 @@ export default function HeroSection() {
 
       <div className="relative mx-auto grid w-full max-w-6xl grid-cols-[1.18fr_0.82fr] gap-4 md:gap-8 lg:gap-10 lg:items-center">
         <div>
-          <h1 className="text-[42px] font-semibold leading-[1.04] text-[#121212] md:text-[50px] lg:text-[56px]">
+          <h1 className="text-[42px] font-medium leading-[1.08] text-[#121212] md:text-[50px] lg:text-[52px]">
             If you&apos;ve got an
             <br />
             idea, we can
@@ -31,7 +31,7 @@ export default function HeroSection() {
             <span className="font-semibold text-[#3b7dff]"> No-Code</span> and
             <span className="font-semibold text-[#ff7a59]"> AI Tools</span>.
           </p>
-          <button className="mt-5 rounded-full bg-[#111] px-[18px] py-2 text-[12px] font-semibold text-white transition duration-200 hover:-translate-y-[1px] hover:bg-black hover:shadow-[0_10px_18px_rgba(0,0,0,0.18)] md:mt-7 md:px-5 md:py-2.5 md:text-[13px]">
+          <button className="mt-6 inline-flex items-center gap-2 rounded-[18px] bg-[#111] px-7 py-3.5 text-[14px] font-semibold leading-none text-white transition duration-200 hover:-translate-y-[1px] hover:bg-black hover:shadow-[0_10px_18px_rgba(0,0,0,0.18)] md:mt-8">
             How fast can you build?
           </button>
         </div>
